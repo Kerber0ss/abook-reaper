@@ -4,7 +4,7 @@ A macOS app for downloading audiobooks from [akniga.org](https://akniga.org).
 
 Paste a book URL, pick a format, and hit Download — the app extracts metadata, decrypts the audio stream, and saves it via `ffmpeg`.
 
-[Документация на русском](README_RU.md)
+[Ukrainian documentation](README_UA.md) · [Russian docs](README_RU.md)
 
 ## Features
 
@@ -57,7 +57,3 @@ abook-reaper/
 ├── Models.swift                 # Data models
 └── Localizable.xcstrings        # Localization EN/RU/UK
 ```
-
-## License
-
-MIT
