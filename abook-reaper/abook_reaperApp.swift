@@ -2,8 +2,6 @@
 //  abook_reaperApp.swift
 //  abook-reaper
 //
-//  Created by Miroslav Bibik on 25.03.2026.
-//
 
 import SwiftUI
 
@@ -13,5 +11,7 @@ struct abook_reaperApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
+        .defaultSize(width: 480, height: 100)
     }
 }
